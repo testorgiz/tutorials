@@ -110,6 +110,8 @@ and
 | col 2 is      | centered        |   $12 |
 | zebra stripes | are neat        |    $1 |
 
+![Image](img-09.png)
+
 [ACCORDION-BEGIN [Step 4: ](Check the right ports are open)]
 
 If you look at the message thrown by the client, you will find that although you explicitly call port 30030 in the `API_URL` parameter, the error message returns port 30032.  Not having the right ports open would mean more errors when trying to connect to other sites, as login requests will go through the UAA.
@@ -117,9 +119,9 @@ If you look at the message thrown by the client, you will find that although you
 This means we need to make sure communications into those ports are free of blocks:
 
 <ol type="a">
-<li>  Make sure the instance has the proper ports enabled. In CAL, the configuration would look like this for this scenario from `Access points` section in the Virtual Machines tab:<br>
+<li>  Make sure the instance has the proper ports enabled. In CAL, the configuration would look like this for this scenario from `Access points` section in the Virtual Machines tab:<br />
 
-<br>
+![Image](img-09.png)
 <img src="https://raw.githubusercontent.com/testorgiz/tutorials/master/tutorials/onedx-team-meeting/img-09.png" alt="image 1"/>  </br> 
 <img src="https://raw.githubusercontent.com/SAPDocuments/How-Tos/master/tutorials/2017/01/troubleshooting-uaa-errors/3.png" alt="image 1"/> <br />
 </li>
