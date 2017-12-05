@@ -120,8 +120,8 @@ This means we need to make sure communications into those ports are free of bloc
 <li>  Make sure the instance has the proper ports enabled. In CAL, the configuration would look like this for this scenario from `Access points` section in the Virtual Machines tab:<br>
 
 <br>
-![Image](https://raw.githubusercontent.com/testorgiz/tutorials/edit/master/tutorials/onedx-team-meeting/img-09.png)
-<img src="https://raw.githubusercontent.com/testorgiz/tutorials/edit/master/tutorials/onedx-team-meeting/img-09.png" alt="image 1"/>  </br> </li>
+![Image](https://raw.githubusercontent.com/testorgiz/tutorials/master/tutorials/onedx-team-meeting/img-09.png)
+<img src="https://raw.githubusercontent.com/testorgiz/tutorials/master/tutorials/onedx-team-meeting/img-09.png" alt="image 1"/>  </br> </li>
 
   <li> If you are running behind a local or corporate firewall, VPN and/or proxy, make sure traffic is coming in and out.
 
